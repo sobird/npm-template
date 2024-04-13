@@ -1,6 +1,6 @@
 {
-  "name": "npm-template",
-  "version": "0.0.2",
+  "name": "npm-template-sobird",
+  "version": "0.0.3",
   "description": "npm template",
   "type": "module",
   "main": "index.js",
@@ -10,7 +10,8 @@
     "lint:eslint": "eslint src --ext ts,js --report-unused-disable-directives --max-warnings 10",
     "preversion": "yarn lint:eslint",
     "version": "git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "postinstall": "echo \"postinstall\" && exit 1"
   },
   "keywords": [
     "npm",
