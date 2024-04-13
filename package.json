@@ -1,6 +1,6 @@
 {
   "name": "npm-template-sobird",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "npm template",
   "type": "module",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "preversion": "yarn lint:eslint",
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
-    "postinstall": "echo \"postinstall\" && exit 1"
+    "postinstall": "echo \"postinstall\""
   },
   "keywords": [
     "npm",
