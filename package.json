@@ -1,11 +1,13 @@
 {
   "name": "npm-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "npm template",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c --environment NODE_ENV:production",
+    "eslint:fix": "eslint src --fix",
+    "lint:eslint": "eslint src --ext ts,js --report-unused-disable-directives --max-warnings 10",
     "preversion": "yarn lint:eslint",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"

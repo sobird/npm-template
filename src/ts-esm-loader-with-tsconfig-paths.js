@@ -1,5 +1,3 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/no-extraneous-dependencies */
 // https://github.com/TypeStrong/ts-node/discussions/1450#discussioncomment-1806115
 // https://github.com/TypeStrong/ts-node/pull/1585#issuecomment-1474931539
 
