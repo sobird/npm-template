@@ -7,4 +7,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-register(resolve(__dirname, 'ts-esm-loader-with-tsconfig-paths.js'), pathToFileURL('./'));
+try {
+  register(resolve(__dirname, 'ts-esm-loader-with-tsconfig-paths.js'), pathToFileURL('./'));
+} catch (error) {
+  // todo
+}
