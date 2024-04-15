@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 /**
  * rollup.config.js
  * 打包压缩ts文件
- * 
+ *
  * @type {import('rollup').RollupOptions}
  * @see https://cn.rollupjs.org/configuration-options
  * sobird<i@sobird.me> at 2023/09/28 11:30:37 created.
@@ -28,12 +29,12 @@ function input(pattern) {
     ignore: ['src/**/*.d.ts'],
     cwd: __dirname,
     absolute: false,
-  }).reduce((map, filename) => {
-    map[relative(
+  }).reduce((accu, filename) => {
+    accu[relative(
       'src',
-      filename.slice(0, filename.length - extname(filename).length)
+      filename.slice(0, filename.length - extname(filename).length),
     )] = filename;
-    return map;
+    return accu;
   }, {});
 }
 
@@ -73,11 +74,11 @@ export default (env) => {
           includeDependencies: true,
         }),
         nodeResolve({
-          preferBuiltins: true
+          preferBuiltins: true,
         }),
         commonjs(),
         esbuild({
-          minify: isProduction
+          minify: isProduction,
         }),
         json(),
         copy({
@@ -86,8 +87,8 @@ export default (env) => {
             { src: 'README.md', dest: DIST },
             { src: 'LICENSE', dest: DIST },
           ],
-          copyOnce: env.watch
-        })
+          copyOnce: env.watch,
+        }),
       ],
     },
   ]);

@@ -1,4 +1,3 @@
-/* eslint-disable no-underscore-dangle */
 /* eslint-disable @typescript-eslint/naming-convention */
 import { dirname, resolve } from 'node:path';
 import { register } from 'node:module';

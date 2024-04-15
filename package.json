@@ -29,13 +29,16 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/node": "^20.12.7",
     "esbuild": "^0.20.2",
-    "eslint-config-sobird": "^0.1.19",
-    "glob": "^10.3.12",
+    "eslint-config-sobird": "^0.2.5",
+    "glob": "^10.3.10",
     "rollup": "^4.14.2",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "typescript": "^5.4.5"
+  },
+  "resolutions": {
+    "strip-ansi": "6.0.1"
   }
 }
