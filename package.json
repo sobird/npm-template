@@ -9,7 +9,7 @@
     "eslint:fix": "eslint src --fix",
     "lint:eslint": "eslint src --ext ts,js --report-unused-disable-directives --max-warnings 10",
     "preversion": "yarn lint:eslint",
-    "version": "git add -A src",
+    "version": "git add -A .",
     "postversion": "git push && git push --tags",
     "postinstall": "echo \"postinstall\""
   },
