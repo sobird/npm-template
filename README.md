@@ -9,7 +9,7 @@ npm包 模板仓库
 
 [npm]: https://img.shields.io/npm/v/@sobird/npm-template.svg
 [npm-url]: https://www.npmjs.com/package/@sobird/npm-template
-[build-status]: https://img.shields.io/github/actions/workflow/status/sobird/npm-template/npm-publish.yml?label=CI&logo=github
+[build-status]: https://img.shields.io/github/actions/workflow/status/sobird/npm-template/release-please.yml?label=CI&logo=github
 [build-status-url]: https://github.com/sobird/npm-template/actions
 [size]: https://packagephobia.com/badge?p=@sobird/npm-template
 [size-url]: https://packagephobia.com/result?p=@sobird/npm-template
