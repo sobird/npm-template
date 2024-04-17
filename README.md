@@ -1,5 +1,5 @@
 # npm-template
-npm template
+npm包 模板仓库
 
 [![npm][npm]][npm-url]
 [![Build Status][build-status]][build-status-url]
