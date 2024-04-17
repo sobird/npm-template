@@ -24,4 +24,4 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           body: |
-            Please refer to [CHANGELOG.md](./blob/main/CHANGELOG.md) for details.
+            Please refer to [CHANGELOG.md](./CHANGELOG.md) for details.
