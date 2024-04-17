@@ -1,3 +1,4 @@
+# https://docs.github.com/zh/actions/using-workflows/triggering-a-workflow#triggering-a-workflow-from-a-workflow
 on:
   push:
     tags:
