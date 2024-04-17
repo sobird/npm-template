@@ -30,3 +30,7 @@ yarn version --patch
 yarn version --minor
 yarn version --major
 ```
+
+## 参考
+
+* [约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)

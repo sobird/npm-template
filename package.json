@@ -7,11 +7,13 @@
   "scripts": {
     "build": "rollup -c --environment NODE_ENV:production",
     "eslint:fix": "eslint src --fix",
+    "test": "echo \"test scripts\"",
     "lint:eslint": "eslint src --ext ts,js --report-unused-disable-directives --max-warnings 10",
     "preversion": "yarn lint:eslint",
     "version": "git add -A .",
     "postversion": "git push && git push --tags",
-    "postinstall": "echo \"postinstall\""
+    "postinstall": "echo \"postinstall\"",
+    "prepare": "husky"
   },
   "keywords": [
     "npm",
@@ -31,6 +33,7 @@
     "esbuild": "^0.20.2",
     "eslint-config-sobird": "^0.2.13",
     "glob": "^10.3.10",
+    "husky": "^9.0.11",
     "rollup": "^4.14.2",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-copy": "^3.5.0",
