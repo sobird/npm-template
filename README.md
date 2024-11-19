@@ -15,6 +15,8 @@ npm包模板仓库，该模板仓库演示了一个可以通过`node`运行一�
 [size-url]: https://packagephobia.com/result?p=@sobird/npm-template
 
 
+## husky
+
 
 ## ts-node with tsconfig-paths
 
