@@ -61,9 +61,9 @@ console.log(fs, utils);
 手动通过下面的命令，进行tag发布
 
 ```sh
-yarn version --patch
-yarn version --minor
-yarn version --major
+npm version --patch
+npm version --minor
+npm version --major
 ```
 
 ### 方式二
