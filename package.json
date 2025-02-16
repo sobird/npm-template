@@ -21,10 +21,6 @@
   ],
   "author": "sobird",
   "license": "MIT",
-  "dependencies": {
-    "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^19.2.2",
     "@commitlint/config-conventional": "^19.2.2",
@@ -42,9 +38,7 @@
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-esbuild": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tsx": "^4.19.2",
     "typescript": "^5.4.5"
-  },
-  "resolutions": {
-    "strip-ansi": "6.0.0"
   }
 }

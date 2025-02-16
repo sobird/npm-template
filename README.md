@@ -16,6 +16,22 @@ npm包模板仓库，该模板仓库演示了一个可以通过`node`运行一�
 
 
 ## husky
+```sh
+# install
+npm install --save-dev husky
+
+# husky init
+npx husky init
+```
+
+## commitlint
+```sh
+npm install --save-dev @commitlint/config-conventional @commitlint/cli
+echo "export default {extends: ['@commitlint/config-conventional']};" > commitlint.config.js
+
+echo "npx commitlint --edit \$1" > .husky/commit-msg
+```
+
 
 
 ## ts-node with tsconfig-paths
