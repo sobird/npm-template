@@ -17,7 +17,10 @@
   },
   "keywords": [
     "npm",
-    "npm-template"
+    "npm-template",
+    "typescript",
+    "vitest",
+    "rollup"
   ],
   "author": "sobird",
   "license": "MIT",

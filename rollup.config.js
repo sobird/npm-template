@@ -40,7 +40,7 @@ function input(pattern) {
   }, {});
 }
 
-const mainInput = input(['src/**/*.{ts,js}']);
+const mainInput = input(['index.ts']);
 
 export default (env) => {
   return defineConfig([
@@ -59,7 +59,7 @@ export default (env) => {
     // },
 
     { // es module
-      input: mainInput,
+      input: 'index.ts',
       output: {
         dir: `${DIST}`,
         format: 'es',
